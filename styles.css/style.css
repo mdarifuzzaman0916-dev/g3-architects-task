@@ -193,7 +193,29 @@ header{
 .child-card .card-p{
     margin-top: 5px;
 }
-
+.sponsors-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.info-div{
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+.info-div h3{
+    font-size: 2.81rem;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 24px;
+}
+#img-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 154px;
+    filter: grayscale(100%);
+    margin-bottom: 130px;
+}
 
 
 
@@ -251,7 +273,16 @@ header{
    flex-direction: column;
    gap: 50px;
 }
-
+.sponsors-container {
+    margin-top: 50px;
+}
+#img-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
 
 
 }
